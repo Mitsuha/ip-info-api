@@ -1755,14 +1755,20 @@ https://check.torproject.org/api/ip
 
 **地址23**: https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo <a name="address-2.23"></a>
 
-请求类型：GET  
-请求参数：无  
-CORS跨域支持：未测试  
-请求示例：  
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+请求示例：
+
 ```
 https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo
 ```
-相应示例：  
+
+示例结果： 
+
 ```
 {
   "code":0,
@@ -1779,6 +1785,8 @@ https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo
   }
 }
 ```
+
+&emsp;
 
 <a name="address-3.1"></a>
 

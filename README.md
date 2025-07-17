@@ -90,6 +90,8 @@
 
 [https://check.torproject.org/api/ip](#address-2.22) 
 
+[https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo](#address-2.23)
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -1750,6 +1752,33 @@ https://check.torproject.org/api/ip
 ```
 
 &emsp;
+
+**地址23**: https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo <a name="address-2.23"></a>
+
+请求类型：GET  
+请求参数：无  
+CORS跨域支持：未测试  
+请求示例：  
+```
+https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo
+```
+相应示例：  
+```
+{
+  "code":0,
+  "message":"0",
+  "ttl":1,
+  "data":{
+    "addr":"220.1.1.1",
+    "country":"中国",
+    "province":"北京",
+    "city":"北京",
+    "isp":"电信",
+    "latitude":"39.938884",
+    "longitude":"116.397459" // 精确到同城
+  }
+}
+```
 
 <a name="address-3.1"></a>
 
